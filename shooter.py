@@ -20,7 +20,7 @@ if not pi.connected:
 AIM_PIN = 18
 
 # Define the GPIO pin for the shooter
-SHOOTER_PIN = 21
+SHOOTER_PIN = 13
 
 # Attach servo to pin
 pi.set_mode(AIM_PIN, pigpio.OUTPUT)
